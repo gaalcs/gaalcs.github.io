@@ -1,1 +1,1 @@
-Itt a cucc: gaalcs.github.io
+Itt a cucc: https://gaalcs.github.io
