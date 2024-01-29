@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(21, 21, 21);
+}
+
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 21px;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    font-size: 21pt;
+    color: rgb(255, 255, 0);
+}
+
+.main_grid-container {
+    display: grid;
+    grid-template-columns: 50% 12% 26% 12%;
+}
+
+.vicc_grid-container {
+    display: grid;
+    grid-template-rows: 25% 25% 50%;
+    justify-items: center;
+}
+
+main{
+    display: grid;
+    margin: 40px 10px 20px 20px;
+    padding: 20px;
+    border-radius: 10.5px;
+    box-shadow: 4px 3px 5px 4px rgba(0, 0, 0, 0.21);
+    background-color: rgba(255, 255, 0, 0.42);
+}
+
+.lelkesito, .joke{
+    padding: 20px;
+    font-size: 21pt;
+    color: rgb(255, 255, 0);
+    text-align: center;
+    align-self: center;
+}
+
+.button{
+    width: 84%;
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    align-self: center;
+    border-radius: 21px;
+    box-shadow: 4px 3px 5px 4px rgba(0, 0, 0, 0.21);
+    font-size: 31.5pt;
+    color:rgb(255, 255, 0);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.button:hover{
+    background-color: rgba(213, 0, 0, 0.84);
+}
+
+aside{
+    display: grid;
+    margin: 40px 20px 20px 10px;
+    padding: 20px;
+    background-color: rgba(234, 0, 0, 0.84);
+    border-radius: 10.5px;
+    box-shadow: 4px 3px 5px 4px rgba(0, 0, 0, 0.21);
+    justify-items: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.asidekep{
+    width: 100%;
+    border: solid rgb(255, 255, 0) 5px;
+    border-radius: 10.5px;
+}
+
+.alsokepdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.alsokep{
+    width: 94.5%;
+    border: solid rgb(255, 255, 0, 0.42) 5px;
+    border-radius: 10.5px;
+    margin: 20px 20px 0px 20px;
+    height: 252px;
+}
+
+footer{
+    padding: 21px;
+    bottom: 0px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16pt;
+    color: rgb(255, 255, 0);
+}
